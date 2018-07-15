@@ -1,0 +1,52 @@
+div,body,p,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.wrapper{
+	width: 1080px;
+	margin: 0 auto;
+}
+.over{
+	overflow: hidden;
+}
+.bold{
+	font-weight: bold;
+}
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:after{
+	display: block;
+	content: 'clear';
+	clear: both;
+	line-height: 0;
+	visibility: hidden;
+}
+.textout{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.hand{
+	cursor: pointer;
+}
+
+
+@font-face {
+	font-family: fontA;
+	src: url(../fonts/FontAwesome.otf);
+}
